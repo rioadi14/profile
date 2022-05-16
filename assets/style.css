@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+ 
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: inline;
+}
+.jumbotron{
+    font-size: 20px;
+    padding: 45px;
+    background-color: #1abc9c;
+    text-align: center;
+    color: white;
+}
+main{
+    padding: 10px;
+    overflow: auto;
+}
+nav{
+    background-color: #303c54;
+    color: aliceblue;
+    padding: 1px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+#content{
+    float: left;
+    width: 50%;
+}
+
+.card {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    overflow-x: auto;
+}
+aside{
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+}
+.pict{
+    width: 200px;
+    object-position: center;
+}
+footer{
+    padding: 1px;
+    color: white;
+    background-color: #802885;
+    text-align: center;
+    font-weight: bold;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+img {
+  border-radius: 50%;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 90%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
